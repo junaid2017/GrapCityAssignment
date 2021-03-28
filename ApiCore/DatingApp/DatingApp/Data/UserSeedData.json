@@ -1,0 +1,44 @@
+﻿[
+  {
+
+    "UserName": "Junaid",
+    "Gender": "Male",
+    "KnownAs": "Junaid",
+    "City": "Bijnor",
+    "Country": "India",
+    "BlogDetails": [
+      {
+        "BlogTitle": ".NET 5.0 updates are coming to Microsoft Update.",
+        "BlogDescription": "Starting in December 2020, we will be delivering .NET Core updates on Windows via Microsoft Update. We have received many requests for this, particularly from organizations that acquire and manage all of their Microsoft-related updates via Microsoft (or Windows) Update. This change will enable organizations to manage .NET Framework and .NET Core updates in the same way. If you don’t want to use Microsoft Update to update .NET on your machines, you don’t have to, and can continue using one of the existing options",
+        "BackGround": "When updates for the product are available on Windows Update, the job of an enterprise IT administrator tasked with ensuring security patches are installed in a timely manner is mostly fully automated.Until now, we did not deliver .NET Core updates automatically via Microsoft Update. This was because of earlier customer feedback around potentially breaking apps. This feedback was centered around .NET Framework major/minor feature updates (for example going from 4.5 to 4.8) which installed in-place rather than side-by-side with earlier versions In the .NET Core case, major/minor (feature) updates always install side-by-side. Only monthly servicing updates install in-place and replace previous servicing updates. We are delivering .NET Core servicing updates monthly without issues. .NET Core servicing updates have evolved from fully side-by-side installs to patches that replace earlier versions with “runtime roll-forward”, so once an update is deployed apps can use the latest (serviced) runtime version automatically."
+      },
+      {
+        "BlogTitle": "The history of C#",
+        "BlogDescription": "The C# language relies on types and methods in what the C# specification defines as a standard library for some of the features. The .NET platform delivers those types and methods in a number of packages. One example is exception processing. Every throw statement or expression is checked to ensure the object being thrown is derived from Exception. Similarly, every catch is checked to ensure that the type being caught is derived from Exception. Each version may add new requirements. To use the latest language features in older environments, you may need to install specific libraries. These dependencies are documented in the page for each specific version. You can learn more about the relationships between language and library for background on this dependency.",
+        "BackGround": "When updates for the product are available on Windows Update, the job of an enterprise IT administrator tasked with ensuring security patches are installed in a timely manner is mostly fully automated.Until now, we did not deliver .NET Core updates automatically via Microsoft Update. This was because of earlier customer feedback around potentially breaking apps. This feedback was centered around .NET Framework major/minor feature updates (for example going from 4.5 to 4.8) which installed in-place rather than side-by-side with earlier versions In the .NET Core case, major/minor (feature) updates always install side-by-side. Only monthly servicing updates install in-place and replace previous servicing updates. We are delivering .NET Core servicing updates monthly without issues. .NET Core servicing updates have evolved from fully side-by-side installs to patches that replace earlier versions with “runtime roll-forward”, so once an update is deployed apps can use the latest (serviced) runtime version automatically."
+      }
+    ]
+  },
+
+  {
+
+    "UserName": "Grap",
+    "Gender": "Male",
+    "KnownAs": "Grap",
+    "City": "Noida",
+    "Country": "India",
+    "BlogDetails": [
+      {
+        "BlogTitle": "About GrapeCity",
+        "BlogDescription": "GrapeCity was founded in Sendai, Japan in the early 1950's by a group of American educators in Japan. With a focus on high-quality English education, this small group established world-class elementary schools in northern Japan. ... So, GrapeCity expanded into technology and software to create what was needed",
+        "BackGround": "Across all our software products and services, our focus is on helping our customers achieve their goals. Our key principles – thoroughly understanding our customers' business objectives, maintaining a strong emphasis on quality, and adhering to the highest ethical standards – serve as the foundation for everything we do."
+      },
+      {
+        "BlogTitle": "The history of C#",
+        "BlogDescription": "Starting in December 2020, we will be delivering .NET Core updates on Windows via Microsoft Update. We have received many requests for this, particularly from organizations that acquire and manage all of their Microsoft-related updates via Microsoft (or Windows) Update. This change will enable organizations to manage .NET Framework and .NET Core updates in the same way. If you don’t want to use Microsoft Update to update .NET on your machines, you don’t have to, and can continue using one of the existing options",
+        "BackGround": "When updates for the product are available on Windows Update, the job of an enterprise IT administrator tasked with ensuring security patches are installed in a timely manner is mostly fully automated.Until now, we did not deliver .NET Core updates automatically via Microsoft Update. This was because of earlier customer feedback around potentially breaking apps. This feedback was centered around .NET Framework major/minor feature updates (for example going from 4.5 to 4.8) which installed in-place rather than side-by-side with earlier versions In the .NET Core case, major/minor (feature) updates always install side-by-side. Only monthly servicing updates install in-place and replace previous servicing updates. We are delivering .NET Core servicing updates monthly without issues. .NET Core servicing updates have evolved from fully side-by-side installs to patches that replace earlier versions with “runtime roll-forward”, so once an update is deployed apps can use the latest (serviced) runtime version automatically."
+      }
+    ]
+  }
+]
+  
